@@ -71,7 +71,7 @@ if ($this->session->userdata('level') == "Admin") {
                     </div>
                     <div class="form-group">
                       <label>Total Saldo Penarikan</label>
-                      <input type="Rp. <?= number_format(0) ?>" class="form-control" name="saldo" id="saldo_akhir">
+                      <input type="text" class="form-control" name="saldo" id="saldo_akhir">
                     </div>
                   </div>
                 <div class="modal-footer justify-content-between">
